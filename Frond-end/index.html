@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <!-- Head-->
+    <head>
+        <!-- Metadata-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- interface-->
+        <title>User Payload</title>
+        <link rel="icon" type="image/png" href="assets/images/Logozlivio-Nav-Alfa.png">
+
+
+        <!-- Styles-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <!-- body-->
+    <body>
+
+        <!-- Login principal-->
+        <div class="payload">
+
+            <!-- formulario de envio-->
+            <form id="formData">
+
+                <!--imagen de logo y usuario-->
+                <div class="top-images">
+                    <img src="assets/images/Logozlivio-Nav-Alfa.png">
+                </div>
+                <div class="images">
+                    <img src="assets/images/handsome-man-counting-five.png">
+                </div>
+
+                <!-- Datos del formulario-->
+                <div class="form-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm"><i class="icon ion-person"></i></span>
+                    </div>
+                    <select class="form-control" id="userNames"></select>
+                </div>
+                <div class="form-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm"><i class="icon ion-card"></i></span>
+                    </div>
+                    <input class="form-control" type="text" id="userId" disabled>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary btn-block" type="submit">Enviar</button>
+                </div>
+                <div class="socialNetworks">
+                    <span href="#" class="forgot">Siguenos</span>
+                    <div class="icons">
+                        <i class="icon ion-social-facebook"></i>
+                        <i class="icon ion-social-instagram"></i>
+                        <i class="icon ion-ios-world"></i>
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+
+        <div id="overlay">
+            <div id="overlayText"></div>
+        </div> 
+
+        <!-- Scripts -->
+
+        <!-- Bootstrap -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+        
+        <!-- Project js-->
+        <script src="assets/scripts/index.js"></script>
+    
+    </body>
+
+</html>
